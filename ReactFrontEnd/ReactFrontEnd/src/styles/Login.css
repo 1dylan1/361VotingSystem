@@ -1,0 +1,50 @@
+
+.login-container {
+    background-color:white;
+}
+
+
+.return-button {
+  background-color: rgb(221, 103, 103);
+  color: white;
+  outline: none;
+  border: none;
+  width: 10rem;
+  min-height: 100px;
+  position: absolute;
+  right: 20px;
+}
+
+.form-login{
+  font-size: 20px;
+  width: 320px;
+  height: 420px;
+  background: rgb(25, 56, 122);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+
+.login p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.login input {
+  width: 75%;
+  height: 10%;
+  margin: 0 auto;
+  margin-bottom:15px;
+}
+
+.err-text {
+    color: white;
+    font-size: 15px;
+    background-color: red;
+}

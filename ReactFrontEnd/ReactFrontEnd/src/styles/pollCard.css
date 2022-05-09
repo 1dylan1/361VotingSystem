@@ -1,0 +1,65 @@
+.pollCard-container {
+    background-color: rgb(24,26,27);
+    width: 50%;
+    min-width: 345px;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-top: 50px;
+    color: white;
+    text-align: left;
+    border: none;
+    border-radius: 2pt;
+    box-shadow: 0 0 0 1pt grey;
+    outline: none;
+}
+
+.pollCard-container h1 {
+    margin-left: 10px;
+    color: rgb(155,175,200);
+}
+
+.pollCard-container p {
+        margin-left: 10px;
+        color: rgb(178,172,162);
+}
+
+.pollCard-container b {
+        margin-left: 10px;
+        color: white;
+}
+
+.pc_button1 {
+    min-height: 50px;
+    width: 75%;
+    margin-left: 12%;
+    color:white;
+    margin-top: 5px;
+    background-color: #FF6863;
+}
+
+.pc_button2 {
+    min-height: 50px;
+    width: 75%;
+    margin-left: 12%;
+    color: black;
+    margin-top: 5px;
+    background-color: hsl(180, 19%, 87%);
+}
+
+.pc_buttonC {
+    min-height: 50px;
+    width: 25%;
+    min-width: 94px;
+    margin-top: 1px;
+    margin-left: 70%;
+    color: white;
+    background-color: rgb(81, 190, 81);
+}
+
+.pi-chart {
+    width: 250px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
