@@ -80,7 +80,7 @@ namespace Backend.Controllers
             string query = @"select a.choice, r.responseId, count(a.choice) as sum from Response r join Answer a where a.answerId = r.answerId and r.pollId = @pollId group by a.choice;";
             DataTable table = new DataTable();
             MySqlDataReader myReader;
-            using(MySqlConnection mycon = new MySqlConnection("Server=cse.unl.edu;Port=3306;Database=ddiehl;Uid=ddiehl;Pwd=phDTmjhQb1;"))
+            using(MySqlConnection mycon = new MySqlConnection("CONFIG SERVER STRING HERE -- GETCOUNT "))
             {
                 mycon.Open();
                 using(MySqlCommand mycmd = new MySqlCommand(query, mycon))
