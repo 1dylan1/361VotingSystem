@@ -2,12 +2,6 @@
 
 ## 361 Capstone Project
 
-Made by: 
-- Dylan Diehl
-- Ben Laube
-- Raoul Tayo Sop
-- David Ryckman
-
 ## Features
 
 - Modern and minimal landing page to greet users.
