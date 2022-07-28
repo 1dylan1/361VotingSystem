@@ -2,9 +2,9 @@
 using System.Data;
 using MySql.Data.MySqlClient;
 using Newtonsoft.Json;
-
+// todo: add config class 
 namespace Backend.Controllers
-{
+{ 
     [ApiController]
     [Route("[controller]")]
     public class ResponseController : ControllerBase
@@ -54,7 +54,7 @@ namespace Backend.Controllers
             string query = @"select responseId, answerId from Response where pollId = @pollId and accountId = @accountId;";
             DataTable table = new DataTable();
             MySqlDataReader myReader;
-            using (MySqlConnection mycon = new MySqlConnection("SERVER NOT CONFIGURED HERE"))
+            using (MySqlConnection mycon = new MySqlConnection("SERVER NOT CONFIGURED HERE")) 
             {
                 mycon.Open();
                 using(MySqlCommand mycmd = new MySqlCommand(query, mycon))
