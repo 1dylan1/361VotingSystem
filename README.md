@@ -36,4 +36,3 @@ Pictures of features:
 
 ![Admin Panel Page](https://imgur.com/R3BBqSB.png)
 
-For any comments/questions on the repository, you can contact me at dylandiehl@icloud.com
